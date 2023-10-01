@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorenzo's Furnace Homepage</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <button class="trigram">&#9776;</button>
+        <nav id="header-nav-left" class="nav header-nav">
+            <a href="#header">HOMEPAGE</a>
+            <a href="#menu-items">MENU ITEMS</a>
+        </nav>
+        <h1>
+            <!-- main logo -->
+            <a href="index.html" rel="noreferrer noopener">LORENZO'S FURNACE</a>
+        </h1>
+        <nav id="header-nav-right" class="nav header-nav">
+            <a href="#checkout">CHECKOUT</a>
+            <a href="#footer">CONTACT US</a>
+        </nav>
+    </header>
+
+    <!-- widget -->
+    <section class="welcome">
+        <h2>WELCOME TO THE BEST RESTAURANT IN TOWN!</h2>
+    </section>
+    <main class="main">
+        <h2 class="secondary-headings specials-heading">SPECIALS</h2>
+        <section>
+        <!-- Carousel slider -->
+            <div class="carousel">
+                <button class="carousel-btn carousel-btn-left" 
+                onclick="carouselButtonTraversal(-1)">&#10094;</button>
+                <button class="carousel-btn carousel-btn-right" 
+                onclick="carouselButtonTraversal(+1)">&#10095;</button>
+                <div class="carousel-slides-wrapper">
+                    <img src="img/pizza/Pepperoni pizza.jpg" alt="">
+                    <img src="img/pizza/egg_trify.jpg" alt="">
+                    <img src="img/pizza/Magarita Pizza.jpg" alt="">
+                    <img src="img/pizza/Pepperoni pizza with ketchup on side.jpg" alt="">
+                    <img src="img/pizza/Chicken Pizza.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="secondary-headings youtube-heading">TAKE A LOOK AT OUR KITCHEN</h2>
+            <iframe src="https://www.youtube.com/embed/7OGePrOOcnc" class="youtube-video" width="50px"></iframe>
+            <p class="youtube-text">We inspire Lorem ipsum dolor sit ameeiuimiliqucimus enim mollitia. Nemo voluptate alias, siedita un facere exercitationem officiis harum? Eaque saepe aspernatur quisquam totam quaerat quae, quidem cupiditate natus iure expedita. Dolores velit at eveniet molestias culpa minus dolorum eligendi repellendus dignissimos, iure, ab atque. Veritatis corrupti suscipit beatae neque amet fugit sed, voluptatibus temporibus?</p>
+        </section>
+        <section id="menu-items">
+            <h2 id="menu-header" class="secondary-headings menu-heading">MENU ITEMS</h2>
+            <section class="made-with-love">
+                <h2>MADE WITH LOVE!</h2>
+                <h2>FOR YOU!</h2>
+                <!-- search bar -->
+                <div id="search-bar">
+                    <label for="search">SEARCH</label>
+                    <input type="search" name="search" id="search-input">
+                </div>
+            </section>
+            <div class="menu-items-container">  
+                <div class="menu-items">
+                    <div class="item-img">
+                        <img src="img/pizza/Chicken Pizza.jpeg">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item">Chicken Deluxe</h3>
+                        <p> This cheesy chicken deluxe is going to leave your mouth watered. our main ingriedients are cheese, chicken, capsicum, olives and a bit of our secret ingriedient that gives the pizza a bit of umpf.</p>
+                    </div>
+                    <div class="addtocartbtn">
+                        <button type="submit">Add to cart</button>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="item-img">
+                        <img src="img/pizza/egg_trify.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item">Eggtrify</h3>
+                        <p> This special delight consists of egg, letuce and bit of bacon. If anyone is looking for savoury delight then what are you waiting for? Come order this savoury bad boy! </p>
+                    </div>
+                    <div class="addtocartbtn">
+                        <button type="submit">Add to cart</button>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="item-img">
+                        <img src="img/pizza/Pepperoni pizza.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item">Tempting Pepperoni</h3>
+                        <p> Anyone looking for an Italian delight? Then this is for you! This pepperoni is bathed with crimson red sauce that is well seasoned in the himalayan mountains. This is surely going to leave speechless. </p>
+                    </div>
+                    <div class="addtocartbtn">
+                        <button type="submit">Add to cart</button>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="item-img">
+                        <img src="img/pizza/bell_pepper_pizza.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item">Supreme Delight</h3>
+                        <p> A delightful pizza with roast beef, veg toppings and himalyan salt. If you are just looking for a quick bite then this will leave you satisfied! </p>
+                    </div>
+                    <div class="addtocartbtn">
+                        <button type="submit">Add to cart</button>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="item-img">
+                        <img src="img/pizza/Pepperoni pizza with ketchup on side.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item">Pepperoni-Orignal</h3>
+                        <p> This is the birth of Pepperoni pizza. This ingriedient is passed on by the founders of pepperoni pizza and now you get to taste the origins of pepperoni. </p>
+                    </div>
+                    <div class="addtocartbtn">
+                        <button type="submit">Add to cart</button>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="item-img">
+                        <img alt="Margherita Pizza" src="img\pizza\Magarita Pizza.jpg">
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item">Margherita Pizza</h3>
+                        <p> We need to forget from time to time the pain in our lives. So here's a pizza with added tinctures of Margherita that is specially made by the norse maidens. Don't eat to much Karen, you still have to drive the car</p>
+                    </div>
+                    <div class="addtocartbtn">
+                        <button type="submit">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="checkout-container" id="checkout">
+            <h2 class="secondary-headings">CHECKOUT</h2>
+            <section class="checkout-items-container">
+                <h3 class="secondary-headings checkout-secondary-headings">ITEMS IN-CART</h3>
+                <div class="checkout-card-container">
+                    
+                </div>
+            </section>
+            <section class="payment-form">
+                <h5 class="secondary-headings checkout-secondary-headings">CREDIT/DEBIT CARD</h5>
+                <form action="#" method="get">
+                    <div class="single-form fa1">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="single-form fa2">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="single-form fb1 card-number">
+                        <label for="card-num">Card Number</label>
+                        <input type="text" name="card-num" id="card-num" placeholder="•••• •••• •••• •••• ••••" maxlength="16" minlength="16">
+                    </div>
+                    <div class="single-form fc1">
+                        <label for="cvv">CVV</label>
+                        <input type="password" name="cvv" id="cvv" placeholder="•••" minlength="3" maxlength="4">
+                    </div>
+                    <div class="single-form fc2">
+                        <label for="valid">Valid until</label>
+                        <input type="text" name="valid" id="valid" placeholder="MM / YYYY" maxlength="6" minlength="6" >
+                    </div>          
+                    <div class="form-4 fd1">
+                        <input type="submit" value="Submit" id="submitButtonOrder">
+                        <input type="reset" value="Clear">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+    <!-- Footer of homepage -->
+    <footer id="footer" class="footer">
+        <!-- Left column of footer -->
+        <div><h4 class="copyright">&copy; Lorenzo's Furnace 2021</h4></div>
+        <div class="footer-flex">
+            <p><a href="#">Back to top</a></p>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="#">About Us</a></p>
+            <p><a href="mailto:info@lf.ca?subject=WE LOVED YOUR FOOD!" target="_blank">Email Us</a></p>
+            <p>123 Vancouver, BC</p>
+        </div>
+        <p class="follow">Follow us</p>
+        <div class="footer-socials">
+        <a href="https://www.facebook.com/" target="_blank"><img class="facebook-logo" src="img/social-media/facebook.png" alt="This image is the logo of Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="instagram-logo" src="img/social-media/instagram.png" alt="This image is the logo of Instagram"></a>
+        <a href="https://www.twitter.com" target="_blank"><img class="Twitter-logo" src="img/social-media/twitter.png" alt="This image is the logo of Twitter"></a>
+        </div>
+        <p style="color: white; font-size: 6pt;">* Change width of window to see different views for laptop, tablet and mobile.</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
