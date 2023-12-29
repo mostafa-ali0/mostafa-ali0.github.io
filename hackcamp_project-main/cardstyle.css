@@ -1,0 +1,93 @@
+:root {
+   --blue: #001233;
+   --red: #FF595A;
+   --beige: #CAC0B3;
+ }
+
+
+.card-wrapper {
+    display: block;
+    margin: 20px;
+    border: 1px solid black;
+ }
+ 
+ 
+ .card-wrapper img {
+    height: auto;
+    width: 10rem;
+ }
+
+.name {
+   margin: 0;
+   background-color: var(--blue);
+   color: var(--red);
+   font-family: DSC Specter,Helvetica,Arial,sans-serif;
+   letter-spacing: 5px;
+   font-size: 30px;
+}
+
+body {
+   background-color: var(--blue);
+}
+
+.translate-button, .clear-button {
+   background-color: var(--red);
+   color: var(--blue);
+   font-weight: bolder;
+   font-family: DSC Specter,Helvetica,Arial,sans-serif;
+   font-size: 20px;
+   width: auto;
+   border-radius: 0;
+   min-height: 60px;
+   padding: 0 20px;
+}
+
+.translate-button:hover, .clear-button:hover {
+   color: var(--blue);
+}
+
+.about-container{
+   background-color: var(--beige);
+   min-width: 100vw;
+   margin: 0;
+   padding: 0 50px;
+   align-items: center;
+}
+
+.about-container-wrapper {
+   width: 80vw;
+   padding: 0;
+}
+
+.make-white {
+   background-color: white;
+}
+
+.about-container {
+   display: flex;
+   justify-content: center;
+}
+
+.about-header {
+   font-family: DSC Specter,Helvetica,Arial,sans-serif;
+   padding: 20px 0;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.about-text {
+   text-align: justify;
+   font-size: 20px;
+}
+
+.make-bigger {
+   font-size: 40px;
+   font-weight: bolder;
+   font-family: 'Courier New', monospace;
+   letter-spacing: 5px;
+}
+
+
+.asl-output {
+   background-color: var(--blue);
+}

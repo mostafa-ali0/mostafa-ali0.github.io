@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            font-size: 48px;
+        }
+    </style>
+        
+    <title> ASL Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cardstyle.css">
+</head>
+<body>
+
+    <div class="app">
+        <h2 class="name">SIGN SPEAK</h2>
+        <div class="translator-container">
+            <div class="translate-toggle">
+                <div class="toggle-container">
+                    <a class="active" href="index.html">English to ASL</a>
+                    <a href="index2.html">ASL to English</a>
+                </div>
+            </div>
+
+            <div class="something">
+                <img class="img-decor" src="left.png" alt="">
+                <textarea id="inputText" placeholder="Type your English text here..."></textarea>
+                <img class="img-decor img-decor-right" src="right.png" alt="">
+            </div>
+
+            
+            <div class="buttons">
+                <a href="#outputASL"><button class="translate-button">Translate</button></a>
+                <button class="clear-button">Clear</button>
+            </div>
+            <div id="outputASL" class="asl-output"></div>        
+        </div>
+
+        <div class="about-container">
+            <div class="about-container-wrapper">
+                <h2 class="about-header">ABOUT</h2>
+                <p class="about-text">Deaf individuals, like anyone else, lead rich and diverse lives, but they face unique challenges in a world that often relies heavily on auditory communication. Deafness is not just a lack of hearing; it is a distinct culture with its own language, American Sign Language (ASL), and a vibrant community. Deaf people often rely on visual and tactile methods of communication, and their experiences vary widely depending on factors such as early exposure to sign language, technological advancements, and societal attitudes towards deafness.<br><br>
+    
+    Your site plays a crucial role in bridging communication gaps and fostering inclusivity. By offering a platform that facilitates communication with deaf individuals, you contribute to breaking down barriers that can hinder social interaction and understanding. Whether through video calls with real-time sign language interpretation, educational resources on sign language basics, or forums where users can share experiences and insights, your site creates an environment that promotes connection and mutual understanding.<br><br>
+    
+    In addition to facilitating communication, your site may serve as an advocate for deaf rights and awareness, promoting a more inclusive and accessible society. By providing valuable resources and fostering a sense of community, you empower both deaf and hearing individuals to engage in meaningful conversations, share knowledge, and build connections that transcend linguistic and cultural differences. Ultimately, your platform contributes to a world where communication is truly universal, embracing diversity and enhancing the richness of human interaction.<br><br></p>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <script src="translator.js"></script>
+</body>
+</html>
